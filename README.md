@@ -10,7 +10,7 @@ The result is as shown in the figure. The remote sensing imagery of the target a
 
 **Rural building footprint extraction by AI Earth**
 
-You can use code (`deeplearning-main\step01_building_footprint_extraction.py`), or use the following no-code operation. Open the AI Earth official website and register on the platform. The following is the process of extracting buildings from a piece of remote sensing imagery:
+You can use code (`step01_building_footprint_extraction.py`), or use the following no-code operation. Open the AI Earth official website and register on the platform. The following is the process of extracting buildings from a piece of remote sensing imagery:
 Click to enter the platform → Processing and Analysis → AI Interpretation Tools → Building Extraction → Import Data → Upload Data Independently → Upload Data. Keep the upload method and data format as default.
   
   ![03](https://github.com/Xwyturbo/building_footprint/blob/main/pics/03.png)
@@ -32,10 +32,11 @@ After the processing is complete, click the download icon on the right to downlo
 
 **Merging Building Data**
 
-First, extract all the downloaded building data and place it in the same folder. Then, copy the file path of this data. Use the following code to merge the building data (`deeplearning-main\step02_building_footprint_merge.py`). The highlighted parts need to be modified: the first highlighted part requires pasting the copied path of the downloaded building data, while also changing the backslashes "" to forward slashes "/"; the second highlighted part requires changing the name of the saved file.
+First, extract all the downloaded building data and place it in the same folder. Then, copy the file path of this data. Use the following code to merge the building data (`step02_building_footprint_merge.py`). The highlighted parts need to be modified: the first highlighted part requires pasting the copied path of the downloaded building data, while also changing the backslashes "" to forward slashes "/"; the second highlighted part requires changing the name of the saved file.
  
  ![08](https://github.com/Xwyturbo/building_footprint/blob/main/pics/08.png)
 
  ![09](https://github.com/Xwyturbo/building_footprint/blob/main/pics/09.png)
+
 
 

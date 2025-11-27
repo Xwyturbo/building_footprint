@@ -2,7 +2,7 @@
 
 Open the Bigemap software, click on Import Boundary, and in the dialog box that appears, select the fishnet data you just exported under Open File. Click Open, check all the target areas, and then click OK. 
 
- ![01](C:/Users/xwy/Desktop/deeplearning-main/pics/01.png)
+ ![01](https://github.com/Xwyturbo/building_footprint/blob/main/pics/01.png) 
 
 The result is as shown in the figure. The remote sensing imagery of the target area is now covered by the fishnet. Double-click to download the remote sensing imagery of the target area in tiles. In the dialog box that appears, choose an appropriate save path, keep the other settings as default, and check Level 18 under the level options. Click OK to start the download (the data volume is large, so the download process may be slow).
 
@@ -37,5 +37,6 @@ After the processing is complete, click the download icon on the right to downlo
 First, extract all the downloaded building data and place it in the same folder. Then, copy the file path of this data. Use the following code to merge the building data (`deeplearning-main\step02_building_footprint_merge.py`). The highlighted parts need to be modified: the first highlighted part requires pasting the copied path of the downloaded building data, while also changing the backslashes "" to forward slashes "/"; the second highlighted part requires changing the name of the saved file.
 
  ![01](C:/Users/xwy/Desktop/deeplearning-main/pics/08.png)
+
 
  ![01](C:/Users/xwy/Desktop/deeplearning-main/pics/09.png)
